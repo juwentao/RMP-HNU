@@ -33,7 +33,6 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-            This is online!!!
             built by Tao@HNU with all the love in the world
         </p>
       </header>
