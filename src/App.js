@@ -35,7 +35,7 @@ function App() {
         <p>
             built by Tao@HNU with all the love in the world
         </p>
-              who am I?I'm OAA [doge]alright, let's do this one last time:
+              who am I?I'm OAA [description] [doge]alright, let's do this one last time:
               I'm a EECS student at Hunan University, China. I like to build things and also break things.'
              
       </header>
