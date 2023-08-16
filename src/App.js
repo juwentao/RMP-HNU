@@ -1,20 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import { NextResponse } from 'next/server';
-import { get } from '@vercel/edge-config';
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-
-export const config = { matcher: '/welcome' };
-
-export async function middleware() {
-    const greeting = await get('greeting');
-    // NextResponse.json requires at least Next v13.1 or
-    // enabling experimental.allowMiddlewareResponseBody in next.config.js
-    return NextResponse.json(greeting);
-}
-
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
