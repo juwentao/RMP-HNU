@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import './App.css';
 function Square({ value, onSquareClick }) {
     return (
         <button
@@ -45,6 +45,10 @@ export default function Board() {
         }
         setSquares(newSquares);
         setXIsNext(!xIsNext)
+        const winner = calculateWinner(newSquares);
+        if (winner) {
+            alert(`winner: ${winner}`);
+        }
     }
     return (
         <>
