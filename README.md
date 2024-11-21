@@ -1,3 +1,5 @@
-# ÕâÊÇÒ»¸ö²¿ÊğÔÚvercelÉÏµÄreactÍøÕ¾£¬¹¦ÄÜ»¹Î´È·¶¨£¬ºóĞø»á¸üĞÂ
+# è¿™æ˜¯ä¸€ä¸ªéƒ¨ç½²åœ¨vercelä¸Šçš„reactç½‘ç«™
 
 This is a react website deployed on vercel.
+
+ä¹å®«æ ¼ä¸‹æ£‹æ¸¸æˆ
